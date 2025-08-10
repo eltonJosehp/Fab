@@ -1,1 +1,129 @@
 # Fab
+<!doctype html>
+<html lang="es">
+  
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Feliz Cumple - 23 años</title>
+  
+
+  <style>
+    :root{
+      --bg:#fff6fb;
+      --card:#ffffff;
+      --accent:#ffd6e8;
+      --muted:#7b6f86;
+      --primary:#ff85b3;
+      --radius:18px;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#f7f9ff);color:#333;overflow-x:hidden}
+    .wrap{max-width:980px;margin:36px auto;padding:24px}
+    header{display:flex;gap:16px;align-items:center}
+    .banner{flex:1;background:var(--card);border-radius:var(--radius);padding:18px;display:flex;align-items:center;gap:18px;box-shadow:0 6px 18px rgba(50,30,60,0.06)}
+    .title{font-size:28px;font-weight:700;color:#333}
+    .subtitle{color:var(--muted);font-size:14px}
+    .hero{margin-top:18px;background:linear-gradient(180deg,#ffffff, #fff7fb);border-radius:20px;padding:22px;display:grid;grid-template-columns:280px 1fr;gap:20px;align-items:start}
+    .photo img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+    .message-card{background:var(--card);border-radius:14px;padding:16px;box-shadow:0 6px 14px rgba(40,10,40,0.04)}
+    .greeting{font-size:20px;color:#2c1630;margin:0}
+    .big{font-size:34px;color:var(--primary);margin:8px 0 6px}
+    p.lead{color:var(--muted);line-height:1.5}
+    .chars{display:flex;gap:12px;margin-top:12px}
+    .char img{max-width:64px;max-height:64px}
+    .gallery{margin-top:30px;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+    .gallery img{width:100%;border-radius:12px;box-shadow:0 4px 10px rgba(0,0,0,0.05)}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+    /* corazones flotando */
+    .heart{position:fixed;bottom:-10px;color:pink;font-size:20px;animation:floatUp 6s linear infinite}
+    @keyframes floatUp{0%{transform:translateY(0) scale(1);opacity:1}100%{transform:translateY(-800px) scale(1.5);opacity:0}}
+    @media (max-width:820px){.hero{grid-template-columns:1fr;}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="banner">
+        <div>
+          <div class="title">¡Feliz 23° Cumpleaños, mi amor!</div>
+          <div class="subtitle">Con mucho amor pensado y dedicado para ti.</div>
+        <section style="text-align:center; margin-top:30px;">
+  <p style="font-size:18px; color:#ff85b3; font-weight:bold;">
+    💖 Dale play a esta canción, mi amor, y acompáñame a celebrar este día tan especial 🎶
+  </p>
+  <audio controls audioplay loop>
+    <source src="img\Words (Original Version 1983) - F.R. David.mp3" type="audio/mpeg">
+      Tu navegador no soporta el elemento de audio.
+  </audio>
+</section>
+
+        </div>
+      </div>
+    </header>
+
+    
+    <section class="hero">
+      <div class="photo">
+        <img src="img\image.png" alt="Foto principal">
+      </div>
+      <div>
+        <div class="message-card">
+          <h3 class="greeting">Para mi querida Fabiola</h3>
+          <div class="big">Feliz 23 años mi amor </div>
+          <p class="lead" weight="500">Hoy no es un dia cualquiera, hoy es el cumpleaño de aquella mujer que hace brillar mis ojos en cada dia que nos vemos.
+            Amor, sabes lo importante que eres para mi, eres esa luz que sigo dia a dia, eres una mujer excepcional que se merece  todo lo bello de este mundo
+            tienes una vibra de la cual me enamore y conquistaste, pero que yo tuve que esforzarme para conquistarte, mas tercos que una mula verdad!!
+            pero no me arrepiento de nada, no veo otro destino contigo, estoy agradecito por todo el amor que me demuestras. 
+            Hoy ya 23 años, tan linda, tan tierna, mi princesa sabes lo mucho que te amo. Quiero desearte 
+            muchos exitos en todo mi amor, se que puedes lograr cualquier cosa que te propongas, porque nadie puede darte la contra, vas a deborar el mundo y yo siempre voy a estar para ti, apoyandotee, escuhandote,
+            aconsejandote (aunque no me hagas caso), pero todo lo que este en mis manos te la dare. Brilla y sigue siendo la pequeñita enamorada de Cinnamoroll, porque es como tu, brillando con su inocencia.
+            Te amo mi amor
+          </p>
+          <div class="chars">
+            <img src="img\klipartz.com.png" alt="Cinnamoroll" width="200">
+            <img src="img\pngwing.com (1).png" alt="Snoopy" height="400" width="250">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <img src="img\IMG-20250725-WA0007.jpg" height="400" alt="Momento 1">
+      <img src="img\IMG-20250810-WA0049.jpg" height="400" alt="Momento 2">
+      <video height="400" width="230" controls  alt="Momento 6">
+       <source src="img\Video de WhatsApp 2025-08-10 a las 13.58.56_609fd2d0.mp4" type="video/mp4">
+      </video>
+      <img src="img\IMG-20250810-WA0050.jpg" center alt="Momento 3">
+      <video height="150" width="200" controls  alt="Momento 4">
+       <source src="img\VID-20250810-WA0007.mp4" type="video/mp4">
+      </video>
+      <video height="150" width="200" text-align controls  alt="Momento 5">
+       <source src="img\Video de WhatsApp 2025-08-10 a las 13.59.31_0e0653cc.mp4" type="video/mp4">
+      </video>
+      <img src="img\Imagen de WhatsApp 2025-08-10 a las 14.14.00_a2ce98e4.jpg" width="200" alt="Momento 2">
+      <video height="150" width="200" text-align controls  alt="Momento 5">
+        <source src="img\Video de WhatsApp 2025-08-10 a las 14.14.00_feccdccb.mp4" type="video/mp4">
+      </video>
+    </section>
+
+    <footer>
+      Te amo ❤️
+    </footer>
+  </div>
+
+  <script>
+    function createHeart(){
+      const heart=document.createElement('div');
+      heart.className='heart';
+      heart.style.left=Math.random()*100+'vw';
+      heart.style.animationDuration=(Math.random()*3+3)+'s';
+      heart.innerText='💖';
+      document.body.appendChild(heart);
+      setTimeout(()=>{heart.remove();},6000);
+    }
+    setInterval(createHeart,500);
+  </script>
+</body>
+</html>
